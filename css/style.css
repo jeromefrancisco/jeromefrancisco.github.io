@@ -1,0 +1,198 @@
+body {
+  font-family: "Muli";
+}
+
+.navbar {
+  background-color: black;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 0;
+  margin: 0;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: red;
+}
+
+#pageOne {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1461440728156-f48806552a74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41032dbb0c7e7a68e6f892869185f5bf");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 925px;
+}
+
+#pageTwo {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/8158/night-television-tv-theme-machines.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+.quoteBorder {
+  margin-top: 275px;
+  background-color: white;
+  border-left: 6px solid red;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 20px 20px 20px;
+}
+
+.quote {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.benFranklin {
+  padding-left: 50%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.aboutTitle, .servicesTitle, .portfolioTitle, .contactTitle {
+  padding-top: 100px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  width: 100%;
+  height: 175px;
+}
+
+.footerWords {
+  padding-top: 35px;
+  margin: 0;
+}
+
+.fa {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.fa:hover {
+  color: yellow;
+}
+
+.socialMedia {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutBorder {
+  border: 1px solid white;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.contactBorder {
+  border: 1px solid gray;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.aboutMe {
+  font-size: 1em;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#pageThree {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+#pageFour {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.form-group{
+  text-align: center;
+}
+
+input, textarea, .submitButton{
+  margin-top: 20px;
+}
+
+textarea{
+  width: 190px;
+  resize: none;
+}
+
+.contactDesc{
+  font-size: 1em;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.w3-content{
+  padding-bottom: 100px;
+}
+
+.contactDesc{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.form-horizontal{
+  margin-bottom: 100px;
+}
+
+.contactTitle{
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
+}
+
+#submit{
+  box-shadow: 2px 2px black;
+}
+
+.form-control{
+  box-shadow: 2px 2px black;
+}
+
+img{
+  vertical-align: middle;
+  border: 0;
+  width: 375px;
+  height: 250px;
+  padding: 10px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+}
+
+.fa-laptop:hover, .fa-video-camera:hover{
+  color: white;
+}
