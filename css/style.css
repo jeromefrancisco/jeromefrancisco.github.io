@@ -18,15 +18,21 @@ body {
 }
 
 #pageOne {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1461440728156-f48806552a74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41032dbb0c7e7a68e6f892869185f5bf");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://images.unsplash.com/photo-1461440728156-f48806552a74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41032dbb0c7e7a68e6f892869185f5bf");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 925px;
 }
 
+#txtWelcome{
+  padding-top: 400px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
 #pageTwo {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/8158/night-television-tv-theme-machines.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://static.pexels.com/photos/8158/night-television-tv-theme-machines.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -63,7 +69,7 @@ body {
   color: white;
   padding-top: 20px;
   width: 100%;
-  height: 175px;
+  height: 125px;
 }
 
 .footerWords {
@@ -82,8 +88,8 @@ body {
 }
 
 .socialMedia {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .aboutBorder {
@@ -108,7 +114,7 @@ body {
 }
 
 #pageThree {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
     background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -116,11 +122,11 @@ body {
 }
 
 #pageFour {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+
 }
 
 h1 {
@@ -188,11 +194,20 @@ img{
 }
 
 .col-centered {
-    display:inline-block;
-    float:none;
-    margin-right:-4px;
+    display: inline-block;
+    float: none;
+    margin-right: -4px;
 }
 
 .fa-laptop:hover, .fa-video-camera:hover{
   color: white;
+}
+
+#txtEmail{
+  color: white;
+}
+
+#txtEmail:hover{
+  color: yellow;
+  text-decoration: none;
 }

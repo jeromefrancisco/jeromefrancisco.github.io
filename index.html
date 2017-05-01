@@ -1,23 +1,14 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jerome Francisco</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
-
-
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,7 +28,7 @@
       <ul class="nav navbar-nav navbar-right js-nav">
         <li><a href="#pageOne">Home</a></li>
         <li><a href="#pageTwo">About Me</a></li>
-        <li><a href="#pageThree">Portfolio</a></li>
+        <li><a href="#pageThree">Projects</a></li>
         <li><a href="#pageFour">Contact Me</a></li>
       </ul>
     </div>
@@ -46,13 +37,9 @@
 
 <!-- Home -->
 <div id="pageOne">
-  <!--<div class="container">
-    <div class="quoteBorder">
-      <h1 class="quote">"Without continual growth and progress, such words as improvement, achievement, and success have no meaning."
-</h1>
-      <h2 class="benFranklin"><i>- Benjamin Franklin</i></h2>
-    </div>
-  </div> -->
+  <div class="container">
+    <h1 id="txtWelcome" class="text-center">Welcome.</h1>
+  </div>
 </div>
 
 <!-- About Me -->
@@ -83,17 +70,22 @@
 <!-- Portfolio w/ sites & misc. projects -->
 <div id="pageThree">
   <div class="container">
-    <h1 class="portfolioTitle text-center">Portfolio</h1>
+    <h1 class="portfolioTitle text-center">Projects</h1>
     <div class="row row-centered">
-      <div class="col-md-4 col-lg-4">
+      <div class="col-md-4">
+        <a href="https://github.com/jeromefrancisco/jeromefrancisco.github.io" target="_blank">
+          <img src="imgs/personal site.png" class="col-centered">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="http://alackey.pythonanywhere.com/" target="_blank">
+          <img src="imgs/market.png" class="col-centered">
+        </a>
+      </div>
+      <div class="col-md-4">
         <a href="http://codepen.io/jcfrancisco/pen/vgYVEB" target="_blank">
-          <img src="http://www.upsetmagazine.com/wp-content/uploads/2016/05/Weezer-headermag.jpg" class="col-centered"></a>
-      </div>
-      <div class="col-md-4 col-lg-4">
-        <img src="http://www.shroyco.com/sites/default/files/coming-soon_0.jpg" class="col-centered">
-      </div>
-      <div class="col-md-4 col-lg-4">
-        <img src="http://www.shroyco.com/sites/default/files/coming-soon_0.jpg" class="col-centered">
+          <img src="http://www.upsetmagazine.com/wp-content/uploads/2016/05/Weezer-headermag.jpg" class="col-centered">
+        </a>
       </div>
     </div>
     <div class="row row-centered">
@@ -114,9 +106,8 @@
 <div id="pageFour">
   <div class="container">
     <h1 class="contactTitle text-center">Contact Me</h1>
-    <p class="contactDesc text-center">If you have a project and need some help with it or if you are just stopping by to say hello, feel free to contact me at <u> jcfrancisco1994@gmail.com</u>. You can also reach out and keep in touch with me through the several sites that I use. The
-      links are down below for those who are interested in keeping in contact.</p>
-    <form class="form-horizontal" role="form" method="post" action="#">
+    <p class="contactDesc text-center">Feel free to connect with me on Twitter, LinkedIn, GitHub or by email (<a href="mailto:jcfrancisco1994@gmail.com" id="txtEmail">jcfrancisco1994@gmail.com</a>).</p>
+    <!-- <form class="form-horizontal" role="form" method="post" action="#">
       <div class="form-group">
         <div class="col-sm-10 col-sm-offset-1">
           <input type="text" class="form-control" id="name" name="name" placeholder="Your name" value="">
@@ -137,21 +128,21 @@
           <input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
         </div>
       </div>
-    </form>
+    </form> -->
+    <div class="row text-center socialMedia">
+      <a href="https://twitter.com/JeromeCF94"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i>
+  </a>
+      <a href="https://www.linkedin.com/in/jeromefrancisco21"><i class="fa fa-linkedin" aria-hidden="true"></i>
+  </a>
+      <a href="https://github.com/Pinkerton96"><i class="fa fa-github" aria-hidden="true" target="_blank"></i>
+  </a>
+      <a href="mailto:jcfrancisco1994@gmail.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+    </div>
   </div>
 </div>
 
 <!-- Social Media/Footer -->
 <div class="footer">
-  <div class="row text-center socialMedia">
-    <a href="https://twitter.com/JeromeCF94"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i>
-</a>
-    <a href="https://www.linkedin.com/in/jeromefrancisco21"><i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-    <a href="https://github.com/Pinkerton96"><i class="fa fa-github" aria-hidden="true" target="_blank"></i>
-</a>
-    <a href="http://codepen.io/jcfrancisco"><i class="fa fa-codepen" aria-hidden="true" target="_blank"></i></a>
-  </div>
   <p class="footerWords text-center">&#169; 2017 Jerome Francisco</p>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
