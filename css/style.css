@@ -18,7 +18,7 @@ body {
 }
 
 #pageOne {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1461440728156-f48806552a74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41032dbb0c7e7a68e6f892869185f5bf");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://images.unsplash.com/photo-1461440728156-f48806552a74?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41032dbb0c7e7a68e6f892869185f5bf");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
 }
 
 #pageTwo {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/8158/night-television-tv-theme-machines.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/8158/night-television-tv-theme-machines.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -35,6 +35,17 @@ body {
 
 #txtWelcome{
   padding-top: 450px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.projectTitle{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.projectTitleWIP{
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -64,6 +75,18 @@ body {
   text-shadow: 2px 2px black;
 }
 
+.skillsList{
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.skillsTitle{
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
 .footer {
   background-color: black;
   color: white;
@@ -83,8 +106,9 @@ body {
   padding: 20px;
 }
 
-.fa:hover {
+.fa:hover, .projectTitle:hover {
   color: yellow;
+  text-decoration: none;
 }
 
 .socialMedia {
@@ -100,11 +124,10 @@ body {
   margin: auto;
 }
 
-.contactBorder {
-  border: 1px solid gray;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 30px;
+.skillsBorder{
+  border: 1px solid white;
+  padding-bottom: 10px;
+  margin: auto;
 }
 
 .aboutMe {
@@ -114,7 +137,7 @@ body {
 }
 
 #pageThree {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
     background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -122,7 +145,7 @@ body {
 }
 
 #pageFour {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
