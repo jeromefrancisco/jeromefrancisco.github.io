@@ -1,5 +1,6 @@
 body {
   font-family: "Muli";
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -18,7 +19,7 @@ body {
 }
 
 #pageOne {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("https://static.pexels.com/photos/95377/pexels-photo-95377.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://static.pexels.com/photos/95377/pexels-photo-95377.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -26,11 +27,10 @@ body {
 }
 
 #pageTwo {
-/*  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/279410/pexels-photo-279410.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.pexels.com/photos/185405/pexels-photo-185405.jpeg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; */
-  background: black;
+  background-attachment: fixed;
   padding-bottom: 100px;
 }
 
@@ -85,14 +85,7 @@ body {
 .skillsTitle{
   color: white;
   text-shadow: 2px 2px black;
-  text-align: center;
   margin-top: 5px;
-}
-
-.toolsTitle{
-  color: white;
-  text-shadow: 2px 2px black;
-  text-align: center;
 }
 
 .footer {
@@ -111,10 +104,9 @@ body {
 .fa {
   color: white;
   font-size: 30px;
-  padding: 20px;
 }
 
-.fa:hover {
+.fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover {
   color: yellow;
   text-decoration: none;
 }
@@ -122,6 +114,7 @@ body {
 .socialMedia {
   margin-left: auto;
   margin-right: auto;
+  width: 25%;
 }
 
 .aboutBorder {
@@ -132,7 +125,7 @@ body {
   margin-bottom: 20px;
 }
 
-.devicon-atom-original, .devicon-chrome-plain, .devicon-android-plain, .devicon-git-plain, .devicon-photoshop-plain, .devicon-gimp-plain{
+.devicon-atom-original, .devicon-chrome-plain, .devicon-android-plain, .devicon-git-plain, .devicon-photoshop-plain, .devicon-gimp-plain, .fa-eye, .fa-handshake-o, .fa-smile-o, .fa-book{
   font-size: 50px;
   color: white;
 }
@@ -169,7 +162,7 @@ body {
 }
 
 .javascript, .jquery {
-  width: 50%;
+  width: 40%;
   background-color: #4CAF50;
 }
 
@@ -179,7 +172,7 @@ body {
 }
 
 .java {
-  width: 20%;
+  width: 30%;
   background-color: #4CAF50;
 }
 
@@ -190,12 +183,6 @@ body {
   margin: auto;
   width: 50%;
   margin-bottom: 20px;
-}
-
-.technicalBorder{
-  border: 1px solid white;
-  padding: 10px;
-  margin: auto;
 }
 
 .toolsName{
@@ -216,7 +203,7 @@ body {
 */
 
 #pageThree {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
     background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -224,7 +211,7 @@ body {
 }
 
 #pageFour {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg");
+   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -249,6 +236,8 @@ textarea{
 }
 
 .contactDesc{
+  color: white;
+  text-shadow: 2px 2px black;
   font-size: 1em;
   margin-left: 100px;
   margin-right: 100px;
@@ -257,11 +246,6 @@ textarea{
 
 .w3-content{
   padding-bottom: 100px;
-}
-
-.contactDesc{
-  color: white;
-  text-shadow: 2px 2px black;
 }
 
 .form-horizontal{
