@@ -196,12 +196,6 @@ body {
   text-shadow: 2px 2px black;
 }
 
-/*
-.modal{
-  margin-top: 100px;
-}
-*/
-
 #pageThree {
   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
     background-size: cover;

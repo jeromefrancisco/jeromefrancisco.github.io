@@ -16,7 +16,7 @@
 
 <body>
   <!-- Navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header js-nav">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -173,44 +173,36 @@
     <div class="row row-centered">
       <div class="col-md-4">
         <h2 class="projectTitleWIP"><i>Telecom Lab Site</i></h2>
-        <img src="https://farm5.staticflickr.com/4167/33743656304_44f10d921b_c.jpg" class="col-centered projectImg" draggable="false">
+        <img src="https://farm5.staticflickr.com/4167/33743656304_44f10d921b_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalTelecom" draggable="false">
       </div>
       <div class="col-md-4">
         <h2 class="projectTitleWIP"><i>IWDSA Site Remake</i></h2>
-          <a href="https://github.com/jeromefrancisco/iwdsa-site" target="_blank">
-            <img src="https://farm5.staticflickr.com/4182/34564038572_08cce2ae0e_c.jpg" class="col-centered projectImg" draggable="false">
-          </a>
+            <img src="https://farm5.staticflickr.com/4182/34564038572_08cce2ae0e_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalIWDSASite" draggable="false">
       </div>
       <div class="col-md-4">
-        <h2 class="projectTitle"><i>Ask the Neighbor</i></h2>
-          <a href="https://www.itc.alackey.com/" target="_blank">
-            <img src="https://farm5.staticflickr.com/4192/34398364436_4bbfd06d66_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalAskTheNeighbors" draggable="false">
-          </a>
+        <h2 class="projectTitle"><i>Personal Site</i></h2>
+          <img src="https://farm3.staticflickr.com/2866/33638917344_d9937da4a3_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalPersonalSite" draggable="false">
       </div>
     </div>
     <div class="row row-centered">
       <div class="col-md-4">
+        <h2 class="projectTitle"><i>Ask the Neighbor</i></h2>
+            <img src="https://farm5.staticflickr.com/4192/34398364436_4bbfd06d66_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalAskTheNeighbors" draggable="false">
+      </div>
+      <div class="col-md-4">
         <h2 class="projectTitle"><i>Minglr</i></h2>
-          <a href="https://github.com/Tanagent/Minglr" target="_blank">
-            <img src="https://farm5.staticflickr.com/4190/34073158580_c24c36352d_c.jpg" class="col-centered projectImg" draggable="false">
-          </a>
+            <img src="https://farm5.staticflickr.com/4190/34073158580_c24c36352d_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalMinglr" draggable="false">
       </div>
       <div class="col-md-4">
         <h2 class="projectTitle"><i>Service Marketplace</i></h2>
-          <a href="http://alackey.pythonanywhere.com/" target="_blank">
-            <img src="https://farm5.staticflickr.com/4180/34216271032_39bf4fa3cc_h.jpg" class="col-centered projectImg" draggable="false">
-          </a>
-      </div>
-      <div class="col-md-4">
-        <h2 class="projectTitle"><i>Guess the Tags</i></h2>
-        <a href="https://github.com/Alackey/Guess-The-Tags" target="_blank">
-          <img src="https://farm5.staticflickr.com/4193/34096072440_7c0338237f_c.jpg" class="col-centered projectImg" draggable="false">
-        </a>
+            <img src="https://farm5.staticflickr.com/4180/34216271032_39bf4fa3cc_h.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalServiceMarketplace" draggable="false">
       </div>
     </div>
-
-
     <div class="row row-centered">
+      <div class="col-md-4">
+        <h2 class="projectTitle"><i>Guess the Tags</i></h2>
+          <img src="https://farm5.staticflickr.com/4193/34096072440_7c0338237f_c.jpg" class="col-centered projectImg" data-toggle="modal" data-target="#modalGuessTheTags" draggable="false">
+      </div>
       <!-- <div class="col-md-4">
         <h2 class="projectTitleWIP"><i>Lost Worlds Laser Tag</i></h2>
         <img src="https://farm5.staticflickr.com/4157/33775901733_25baa19b9d_c.jpg" class="col-centered projectImg" draggable="false">
@@ -218,7 +210,68 @@
     </div>
 
     <!-- Modal for projects -->
-     <!-- <div class="modal fade" id="modalAskTheNeighbors" role="dialog" style="padding-right: 0px;">
+    <div class="modal fade" id="modalTelecom" role="dialog" style="padding-right: 0px;">
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Telecom Lab Site</h4>
+           </div>
+           <div class="modal-body">
+             <p><b>April 2017 - Present</b></p>
+             <p>This is a current project for my school's senior project.</p>
+             <p>Our client has requested for us to develop a Wordpress site for our school's Telecommunications site</p>
+               <!-- <p><a href="#" target="_blank">View Project</a></p> -->
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+    <div class="modal fade" id="modalIWDSASite" role="dialog" style="padding-right: 0px;">
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">IWDSA Site Remake</h4>
+           </div>
+           <div class="modal-body">
+             <p><b>June - September 2016, April - May 2017</b></p>
+             <p>Last summer, IWDSA began to work on a club project in building up our club website. Since the old domain expired and hasn't been maintained in forever by its previous web master, we thought that this would be a great opportunity to build our web dev skills by building our own site from the ground up.
+               Unfortunately as time went on, we were not satisfied with how the final result turned out and so the club project was eventually abandoned.</p>
+             <p>This spring, I came back to this project and recreated and enhanced the site by myself for some extra practice.</p>
+               <p><a href="https://github.com/jeromefrancisco/iwdsa-site" target="_blank">View Project</a></p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="modal fade" id="modalPersonalSite" role="dialog" style="padding-right: 0px;">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Personal Site</h4>
+            </div>
+            <div class="modal-body">
+              <p><b>January - December 2016, April - May 2017</b></p>
+              <p>What was originally a simple FreeCodeCamp project eventually turned into my actual personal site over time.</p>
+              <p>In the beginning, I was struggling to make my personal site the way I envisioned it so after a while, I took several breaks in-between last year and attempted to remake my personal site. Each incarnation was an improvement over the earlier attempts until I was satisfied with the final result.</p>
+              <p>My earlier versions of my personal site:</p>
+              <p><a href="http://codepen.io/jcfrancisco/pen/WwaMpE" target="_blank">Attempt 1</a></p>
+              <p><a href="http://codepen.io/jcfrancisco/pen/EgNwXy" target="_blank">Attempt 2</a></p>
+              <p><a href="http://codepen.io/jcfrancisco/pen/LxpZaN" target="_blank">Attempt 3</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="modal fade" id="modalAskTheNeighbors" role="dialog" style="padding-right: 0px;">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -227,17 +280,78 @@
             </div>
             <div class="modal-body">
               <p><b>March - April 2017</b></p>
-              <br>
-              <p>IT Competition 2017 Web Development submission. Developed a website that displays the weather, properties, amenities and crime types of an area using the Google Maps and Places API. Created the results page to reflect a clean minimal interface. Implemented the DataTables jQuery plugin for smooth customization and browsing when looking through types of crimes in an area. Various APIs (Zillow, DarkSky, Weather Underground, etc.) were implemented to gather information for the weather, transportation and amenities.</p>
+              <p>For my team's submission for the IT Competition Web Development category, we developed a website that displays the weather, properties, amenities and crime types of an area using the Google Maps and Places API.</p>
+              <p>I was in charge of the Front-End portion by creating the results page and implementing the DataTables jQuery plugin for smooth customization and browsing when looking through types of crimes in an area.
+                The Back-End team implemented various APIs (Zillow, DarkSky, Weather Underground, etc.) to gather information for the weather, transportation and amenities.</p>
+                <p><a href="https://www.itc.alackey.com/" target="_blank">View Project</a></p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-      </div> -->
-    </div>
-  </div>
+      </div>
+      <div class="modal fade" id="modalMinglr" role="dialog" style="padding-right: 0px;">
+         <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Minglr</h4>
+             </div>
+             <div class="modal-body">
+               <p><b>February 2017</b></p>
+               <p>For my team's submission for the Hackpoly Hackathon, we developed a dating/social media Android app where users can meet new people to hangout with them by matching them with the same interests.</p>
+               <p>I co-developed the front-end and used Java to have the individual pages interact with each other while the Back-End team used Firebase to create and manage the user database.</p>
+               <p><a href="https://github.com/Tanagent/Minglr" target="_blank">View Project</a></p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+      <div class="modal fade" id="modalServiceMarketplace" role="dialog" style="padding-right: 0px;">
+         <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Service Marketplace</h4>
+             </div>
+             <div class="modal-body">
+               <p><b>March - April 2016</b></p>
+               <p>For my team's submission for the IT Competition Web Development category, we developed a Craigslist-esque site for users to create services for clients to bid and perform said service.
+               <p>I co-developed the front-end with HTML/CSS and Bootstrap while the Back-End team utilized the Django framework.</p>
+               <p><a href="http://alackey.pythonanywhere.com/" target="_blank">View Project</a></p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+      <div class="modal fade" id="modalGuessTheTags" role="dialog" style="padding-right: 0px;">
+         <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Guess the Tags</h4>
+             </div>
+             <div class="modal-body">
+               <p><b>February 2016</b></p>
+               <p>The very first project I've ever made!</p>
+               <p>For my team's submission for the Hackpoly Hackathon, we developed an HTML-based game where users must match the appropriate image tags with the image provided using the Clarifai and Imgur API.</p>
+                <p>I was in charge of designing the front-end portion using basic HTML/CSS and Bootstrap for a responsive interface.</p>
+               <p>Unfortunately, the Clarifai API expired after the event was finished so the game does not function properly anymore but you can still take a look at it.</p>
+                 <p><a href="https://github.com/Alackey/Guess-The-Tags" target="_blank">View Project</a></p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div> <!-- container end -->
+  </div> <!-- page three end -->
 
 <!-- Contact Me -->
 <div id="pageFour">
@@ -293,9 +407,9 @@
         </div>
       </div>
     </form> -->
-  </div>
-  <br>
-</div>
+  </div> <!-- container end -->
+<br>
+</div> <!-- page four end -->
 
 <!-- Social Media/Footer -->
 <div class="footer">
