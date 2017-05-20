@@ -246,7 +246,7 @@ textarea{
   margin-bottom: 100px;
 }
 
-.contactTitle{
+.contactTitle, .projectDesc{
   color: white;
   text-shadow: 2px 2px black;
   margin-bottom: 10px;
