@@ -125,7 +125,7 @@ body {
   margin-bottom: 20px;
 }
 
-.devicon-atom-original, .devicon-chrome-plain, .devicon-android-plain, .devicon-git-plain, .devicon-photoshop-plain, .devicon-gimp-plain, .fa-eye, .fa-handshake-o, .fa-smile-o, .fa-book{
+.devicon-atom-original, .devicon-chrome-plain, .devicon-android-plain, .devicon-github-plain, .devicon-photoshop-plain, .devicon-gimp-plain, .fa-eye, .fa-handshake-o, .fa-smile-o, .fa-book{
   font-size: 50px;
   color: white;
 }
@@ -171,8 +171,13 @@ body {
   background-color: #4CAF50;
 }
 
-.java {
+.php{
   width: 30%;
+  background-color: #4CAF50;
+}
+
+.java {
+  width: 20%;
   background-color: #4CAF50;
 }
 
